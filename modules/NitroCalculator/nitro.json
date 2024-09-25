@@ -1,0 +1,16 @@
+{
+  "cxxNamespace": ["calculator"],
+  "ios": {
+    "iosModulename": "NitroCalculator"
+  },
+  "android": {
+    "androidNamespace": ["calculator"],
+    "androidCxxLibName": "NitroCalculator"
+  },
+  "autolinking": {
+    "Calculator": {
+      "swift": "HybridCalculator",
+      "kotlin": "HybridCalculator"
+    }
+  }
+}
