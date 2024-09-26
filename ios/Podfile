@@ -28,7 +28,7 @@ target 'MyApp' do
     # Pods for testing
   end
   
-  pod 'MyNitroModule', :path => '../modules/nitro-module'
+  pod 'NitroCalculator', :path => '../modules/NitroCalculator'
 
   post_install do |installer|
     # https://github.com/facebook/react-native/blob/main/packages/react-native/scripts/react_native_pods.rb#L197-L202

@@ -11,7 +11,7 @@ import {
   Text,
   View,
 } from 'react-native';
-import { NitroCalculator  } from './modules/NitroCalculator/src';
+import { NitroCalculator } from './modules/NitroCalculator/src';
 
 function App(): React.JSX.Element {
 
@@ -21,7 +21,7 @@ function App(): React.JSX.Element {
     return (
       <SafeAreaView>
     <View>
-      <Text>Testing Nitro Android Modules</Text>
+      <Text>Testing Nitro Android Modules {num}</Text>
     </View>
     </SafeAreaView>
   );
